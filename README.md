@@ -110,3 +110,8 @@ To reconstruct this snapshot back into an editable React + Vite developer direct
      * `Playground.tsx`
      * `Contact.tsx`
    * Implement the background HTML5 canvas particle logic in a clean custom React Hook or helper file.
+
+---
+
+## 🎖️ Credits & Attribution
+This immersive portfolio showcase is **100% designed, developed, and personalized by K. Vaishnavi**. All rights to the graphics, visual playground canvas structures, and component integrations belong entirely to her.
