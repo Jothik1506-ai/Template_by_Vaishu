@@ -9,7 +9,7 @@ Welcome to **AIVA Portfolio**, an immersive, high-end, dark-themed portfolio web
 ### 1. 🧭 Interactive Navigation Bar
 * **Glassmorphic Navigation Capsule**: A floating navigation bar that utilizes backdrop blurs and subtle borders.
 * **Micro-Interactions**: Hover effects on links (Home, Work, Resume) and a dynamic **"Say hi"** call-to-action button featuring responsive gradients.
-* **Responsive Logo**: A custom circular logo badge (`JA`) with premium accent transitions.
+* **Responsive Logo**: A custom circular logo badge (`KV`) with premium accent transitions.
 
 ### 2. 🌀 Immersive Hero Header
 * **Interactive Backdrop Canvas**: A fixed canvas element rendering high-performance background particles.
@@ -58,7 +58,7 @@ The project currently contains a high-fidelity local snapshot of the compiled fr
 ```bash
 aivapro/
 ├── README.md                 # Project documentation (this file)
-├── templateweb.html          # High-fidelity static HTML build of the website
+├── index.html                # Main landing page (renamed for GitHub Pages compatibility)
 └── templateweb_files/        # Extracted client assets & source scripts
     ├── client                # Saved Vite client & Hot Module Replacement module
     └── main.tsx              # React entry point script
@@ -74,13 +74,13 @@ Run this command in the project directory:
 ```bash
 python -m http.server 8000
 ```
-Then visit: `http://localhost:8000/templateweb.html`
+Then visit: `http://localhost:8000/index.html`
 
 ### Using Node.js (via `serve`)
 ```bash
 npx serve ./
 ```
-Then visit: `http://localhost:3000/templateweb.html`
+Then visit: `http://localhost:3000/index.html`
 
 ---
 
@@ -101,7 +101,7 @@ To reconstruct this snapshot back into an editable React + Vite developer direct
    ```
 
 3. **Extract Components**:
-   * Migrate the CSS rules inside the `<style>` block in `templateweb.html` into your project's `src/index.css`.
+   * Migrate the CSS rules inside the `<style>` block in `index.html` into your project's `src/index.css`.
    * Separate sections of the HTML inside `<body>` into modular React components inside a `src/components/` directory:
      * `Navbar.tsx`
      * `Hero.tsx`
